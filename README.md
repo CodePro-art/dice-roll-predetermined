@@ -39,7 +39,7 @@ The game interface includes a control panel powered by **lil-gui**. The availabl
     - A physics world is created using Cannon.js with gravity and contact material properties (restitution and friction).
 
 2. **Scene Setup**:
-    - A Three.js scene is initialized with ambient and point lights, and a perspective camera.
+    - A Three.js scene is initialized with ambient and point lights and a perspective camera.
 
 3. **Dice Creation**
     - Dice meshes are created using custom geometry for rounded edges and notches.
@@ -55,12 +55,12 @@ The game interface includes a control panel powered by **lil-gui**. The availabl
 
 ### Result Calculation
 
-- Once the dice come to rest, their orientations are checked to determine the top face value.
+- Once the dice rest, their orientations are checked to determine the top face value.
 - The game re-throws the dice until the sum of the two dice matches the desired result.
 
 ## Link to Site
 
-- Link: [https://predefined-dice-roller.netlify.app](https://predefined-dice-roller.netlify.app)
+- Link: [[https://predefined-dice-roller.netlify.app](https://predefined-dice.netlify.app/)]([https://predefined-dice-roller.netlify.app](https://predefined-dice.netlify.app/))
 
 ## Contact
 
